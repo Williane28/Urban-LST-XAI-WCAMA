@@ -150,19 +150,18 @@ print(
 #%%
 # Hyperparameter Optimization using Optuna
 print(
-    "\nOptimizing hyperparameters with Optuna (RUN_OPTUNA=True)..."
+    "\nOptimizing hyperparameters with Optuna.."
 )
+
 
 study_2018, seed_2018 = optimizer_optuna(
     X_2018,
     y_2018,
-    '2018'
 )
 
 study_2021, seed_2021 = optimizer_optuna(
     X_2021,
     y_2021,
-    '2021'
 )
 
 optuna_results = {
