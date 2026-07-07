@@ -10,7 +10,6 @@ __pycache__/
 
 # Results and Data
 data/
-output
 
 # IDE Settings
 .vscode/
